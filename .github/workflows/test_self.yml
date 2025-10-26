@@ -10,8 +10,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: usuario
+        run: whoami
      
-      - name: version de node
-        run: node -v
+      # - name: version de node
+      #   run: node -v
       - name: version de dotnet
         run: dotnet --version

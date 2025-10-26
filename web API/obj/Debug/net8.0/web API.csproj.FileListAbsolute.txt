@@ -45,3 +45,4 @@ C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extension
 C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.sourcelink.json

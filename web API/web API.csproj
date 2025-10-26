@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="hol\" />
+    <None Include=".github\workflows\test_self.yml" />
   </ItemGroup>
 
 </Project>

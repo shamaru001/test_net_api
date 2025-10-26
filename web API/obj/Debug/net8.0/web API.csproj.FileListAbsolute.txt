@@ -1,0 +1,47 @@
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\appsettings.json
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\web API.staticwebassets.endpoints.json
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\web API.exe
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\web API.deps.json
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\web API.runtimeconfig.json
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\web API.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\web API.pdb
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.csproj.AssemblyReference.cache
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.AssemblyInfoInputs.cache
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.AssemblyInfo.cs
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.csproj.CoreCompileInputs.cache
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\scopedcss\bundle\web API.styles.css
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets\msbuild.web API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets\msbuild.web API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets\msbuild.build.web API.props
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.web API.props
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.web API.props
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.csproj.Up2Date
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.dll
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\refint\web API.dll
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.pdb
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\web API.genruntimeconfig.cache
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\ref\web API.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\shama\source\repos\web API\web API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shama\source\repos\web API\web API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

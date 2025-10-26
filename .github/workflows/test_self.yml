@@ -11,5 +11,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
      
-      - name: Comando en CMD
-        run: dir C:\
+      - name: version de node
+        run: node -v
+      - name: version de dotnet
+        run: dotnet --version

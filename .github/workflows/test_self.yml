@@ -4,6 +4,11 @@ on:
     branches:
       - main
 
+env:
+  sitePath: 'C:\inetpub\wwwroot\8080'
+  SITE_NAME: '8080'
+  publishDir: 'C:\Users\LisitGufo\Documents\PublishedApp'
+
 jobs:
   laravel_action_test_job:
     runs-on: self-hosted
@@ -23,5 +28,33 @@ jobs:
       run: dotnet build --configuration Release
 
     - name: Publish project
-      run: dotnet publish --configuration Release --output C:\Users\LisitGufo\Documents\PublishedApp
+      run: dotnet publish --configuration Release --output ${ { env.publishDir } }
+
+    - name: Stop IIS site
+      shell: pwsh
+      run: |
+        Import-Module WebAdministration
+        $siteName = "$env:SITE_NAME"
+        if ((Get-Website -Name $siteName).State -eq "Started") {
+          Stop-Website -Name $siteName
+          Write-Host "Sitio IIS detenido: $siteName"
+        }
+
+    - name: Deploy to IIS
+      shell: pwsh
+      run: |
+        if (Test-Path "$env:sitePath") {
+          Remove-Item "$env:sitePath\*" -Recurse -Force
+        } else {
+          New-Item -ItemType Directory -Path $env:sitePath
+        }
+        Copy-Item -Path "$env:publishDir\*" -Destination "$env:sitePath" -Recurse -Force
+        
+    - name: Start IIS site
+      shell: pwsh
+      run: |
+        Import-Module WebAdministration
+        Start-Website -Name "$env:SITE_NAME"
+        Write-Host "Sitio IIS iniciado: $env:SITE_NAME"
+
 

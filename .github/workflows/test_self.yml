@@ -8,11 +8,20 @@ jobs:
   laravel_action_test_job:
     runs-on: self-hosted
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      - name: usuario
-        run: whoami     
-      - name: version de node
-        run: node -v
-      - name: version de dotnet
-        run: dotnet --version
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET 8
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build project
+      run: dotnet build --configuration Release
+
+    - name: Publish project
+      run: dotnet publish --configuration Release --output C:\Users\LisitGufo\Documents\PublishedApp
+
